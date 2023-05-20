@@ -54,8 +54,8 @@ export default {
         })
         .then((res) => {
           this.videos = res;
-        })
-        .catch((err) => console.log(err));
+        });
+      // .catch((err) => console.log(err));
     },
   },
 };

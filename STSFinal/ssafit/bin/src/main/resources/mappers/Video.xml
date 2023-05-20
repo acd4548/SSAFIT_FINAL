@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.ssafit.model.dao.VideoDao">
+
+	<!-- 	메인화면에 보여지는 기본 영화 리스트		 -->
+	<select id="selectAll" resultType="Video">
+		SELECT *
+		FROM videos;
+	</select>
+	
+	<!-- 	youtubeId로 영화 하나만 검색 ( detail 들어갈 때 필요 )		 -->
+	<select id="selectOne" parameterType="String" resultType="Video">
+		SELECT *
+		FROM videos
+		WHERE youtubeId = #{youtubeId};
+	</select>
+	
+	<!-- 	keyword가 포함된 영화들을 검색 ( 검색창에 keyword로 검색할 때 필요)		 -->
+	<!--
+	<select id="selectByTitle" parameterType="String" resultType="Video">
+		SELECT *
+		FROM videos
+		WHERE title like concat( '%', #{keyword}, '%');
+	</select>
+	-->
+	
+	<select id="selectByYoutubeId" parameterType="String" resultType="Video">
+		SELECT *
+		FROM videos
+		WHERE youtubeId = #{youtubeId};
+	</select>
+	
+	<insert id="insertVideo" parameterType="Video">
+		INSERT INTO videos
+		VALUES (#{youtubeId}, #{channelName}, #{title}, #{viewCnt})
+	</insert>
+	
+</mapper>
+
