@@ -2,7 +2,7 @@
 
 ### 🖥️ 프로젝트 소개
 
-SSAFY 1학기 관통프로젝트
+< 검색 키워드와 Youtube API 를 통한 영상 추천 서비스 >
 
 ### 🕰️ 프로젝트 기간
 
@@ -54,3 +54,11 @@ SSAFY 1학기 관통프로젝트
 ### 메인페이지
 <img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/69701728-d2aa-40d2-af95-5dd69ebbc54a"  width="700" height="370">
 
+### 주요기능
+* Youtube API를 통한 영상 검색
+<img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/4e66602d-90f3-4bf4-a3bb-9441ab92f5fa"  width="700" height="370">
+</br>
+</br>
+
+* 영상별 댓글CRUD 및 좋아요 기능
+<img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/647e1ac9-9674-4ff2-9bd9-af29998a69c4"  width="700" height="370">
