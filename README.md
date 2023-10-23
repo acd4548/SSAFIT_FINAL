@@ -45,12 +45,12 @@ SSAFY 1학기 관통프로젝트
 </table>
 </div>
 <div align=left>
-<h3><a href="https://glow-composer-ce4.notion.site/1903e0cb7679454795bd1c839ea9f631">팀 노션</a>　|　
-<a href="https://www.figma.com/file/VZx8LncxptJFJQy6IIMzbC/Mookup?type=design&node-id=0-1&mode=design&t=wZkhJEew2f24XSPv-0"> FIGMA </a>　|　
-<a href="https://www.erdcloud.com/d/zJWJuMyzLAMhEvMce"> erdcloud </a>　|　
 
 
 
 ### E-R Diagram
+<img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/378cadd7-3d4c-4c1b-b3c9-121631985459"  width="700" height="370">
 
-<img height="380" src="assets/Gappa_ERD.png"/>
+### 메인페이지
+<img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/69701728-d2aa-40d2-af95-5dd69ebbc54a"  width="700" height="370">
+
