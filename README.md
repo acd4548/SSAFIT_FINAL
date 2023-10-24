@@ -2,7 +2,7 @@
 
 ### 🖥️ 프로젝트 소개
 
-< 검색 키워드와 Youtube API 를 통한 영상 추천 서비스 >
+< 검색 키워드와 Youtube API 를 통한 영상 검색, 캘린더 운동 기록 서비스 >
 
 ### 🕰️ 프로젝트 기간
 
@@ -62,3 +62,9 @@
 
 * 영상별 댓글CRUD 및 좋아요 기능
 <img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/647e1ac9-9674-4ff2-9bd9-af29998a69c4"  width="700" height="370">
+</br>
+</br>
+
+* 캘린더 날짜별 운동 기록 기능
+<img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/8a2390b9-b95e-4dcf-a54a-eeef4de31f04"  width="700" height="370">
+<img src="https://github.com/acd4548/SSAFIT_FINAL/assets/122504425/04c11de6-dded-4d4e-b35b-3cdc76d1da2b"  width="700" height="370">
